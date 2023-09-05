@@ -707,6 +707,7 @@
                        @endforeach
                    @endif
                     {{-- FIXME <end> copypasta from hardware/view.blade.php --}}
+                    @include('partials.custom-fields-view',['item' => $user,'width' => 3])
 
                </div> <!--/end striped container-->
                 </div> <!-- end col-md-9 -->
